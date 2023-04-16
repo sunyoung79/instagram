@@ -1,70 +1,101 @@
 <html>
-    <head></head>
+    <head>
+        <link href="style.css" rel="stylesheet" >
+        <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet"/>
+        <script src="script.js"></script>
+    </head>
     <body>
-        <img src = "https://blog.kakaocdn.net/dn/b5QczF/btrehC6dzmX/7VS9KZZIkBlYV2GKnuUGCK/img.png" width="150px"/>
-        <div>
-            <img src = "image\profile.jpg" width="50px"/>
+        <div id="top">
+            <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png">
+            <input type = "search"value="🔍검색"/>
             <div>
-                <h2>yeomsunyoung</h2>
-                <button>프로필 편집</button>
+                <i class="fas fa-home"></i>
+                <i class="far fa-paper-plane"></i>
+                <i class="far fa-compass"></i>
+                <i class="far fa-heart"></i>
+            </div>
+        </div>
+        <div id="profile">
+            <div class="profile_pic">
+                <img class="circle_pic" src="image\profile.jpg">
+            </div>
+            <div id="profile_info">
+                <div id="id">
+                    <span>yeomsunyoung</span>
+                    <i class="fas fa-cog"></i>
+                </div>
+                <button>프로필 편집 </button>
             </div>
         </div>
         <div>
             <p>
-                <strong>
-                    염선영 (Sunyoung Yeom)
-                </strong><br/>
-                학생
+                <strong>염선영 (Sunyoung Yeom)</strong>
+                <br/> 학생
             </p>
             <p>
-                <a href = "sunyoung79.github.io">
+                <a href = "https://sunyoung79.github.io">
                     sunyoung79.github.io
                 </a>
             </p>
         </div>
-        <div>
-            <div>
-                <div>
-                    <img src="image/hl 1.jpg" height="35px">
+        <div id="highlight_area">
+            <div class="highlight">
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="image\hl 1.jpg">
                 </div>
                 <div>
-                    🦈
+                    ❤️
                 </div>
             </div>
-            <div>
-                <div>
-                    <img src="image/hl 2.jpg" height="35px">
+            <div class="highlight">
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="image\hl 2.jpg">
                 </div>
                 <div>
-                    🥨
+                    💕
                 </div>
+            </div>
+            <div></div>
+        </div>
+        <div id="stat_bar">
+            <div class="stat">
+                게시물 <br/>
+                9
+            </div>
+            <div class="stat">
+                팔로워 <br/>
+                 100k
+            </div>
+            <div class="stat">
+                팔로우 <br/>
+                0
             </div>
         </div>
-        <div>
-            <div>
-                게시물<br/>
-                133
+        <div id="sub_icons">
+            <div class="selected">
+                <i class="fas fa-border-all"></i>
             </div>
-            <div>
-            팔로워<br/>
-            408
-            </div>
-            <div>
-            팔로우<br/>
-            189
-            </div>
+            <div><i class="fas fa-film"></i></div>
+            <div><i class="far fa-play-circle"></i></div>
+            <div><i class="far fa-bookmark"></i></div>
+            <div><i class="fas user-tag"></i></div>
         </div>
-        <div>아이콘 들어갈 자리</div>
         <div>
-            <img src="image\thumnails\1.jpg" width="32%"/>
-            <img src="image\thumnails\2.jpg" width="32%"/>
-            <img src="image\thumnails\3.jpg" width="32%"/>
-            <img src="image\thumnails\4.jpg" width="32%"/>
-            <img src="image\thumnails\5.jpg" width="32%"/>
-            <img src="image\thumnails\6.jpg" width="32%"/>
-            <img src="image\thumnails\7.jpg" width="32%"/>
-            <img src="image\thumnails\8.jpg" width="32%"/>
-            <img src="image\thumnails\9.jpg" width="32%"/>
+            <div class ="thumbnail_grid">
+                <img src="image\thumbnails\1.jpg" class="thumbnail">
+                <img src="image\thumbnails\2.jpg" class="thumbnail">
+                <img src="image\thumbnails\3.jpg" class="thumbnail">
+            </div>
+            <div class="thumbnail_grid">
+                <img src="image\thumbnails\4.jpg" class="thumbnail">
+                <img src="image\thumbnails\5.jpg" class="thumbnail">
+                <img src="image\thumbnails\6.jpg" class="thumbnail">
+            </div>
+            <div class="thumbnail_grid">
+                <img src="image\thumbnails\7.jpg" class="thumbnail">
+                <img src="image\thumbnails\8.jpg" class="thumbnail">
+                <img src="image\thumbnails\9.jpg" class="thumbnail">
+            </div>
         </div>
     </body>
 </html>
